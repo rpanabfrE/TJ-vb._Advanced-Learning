@@ -49,3 +49,13 @@ Select Case x
     Case "A" to "Z", "a" to "z"
         Msgbox("Traveller")
 End Select
+
+'4判断素数
+
+Function prime(ByVal m%) As Boolean
+    prime = True
+    For i = 2 To m - 1
+        If m Mod i = 0 Then prime = False
+    Next
+    Return prime
+End Function
