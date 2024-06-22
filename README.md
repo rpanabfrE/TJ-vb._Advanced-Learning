@@ -59,3 +59,18 @@ Function prime(ByVal m%) As Boolean
     Next
     Return prime
 End Function
+
+'5如果有画布对象g建立在Label1上，不能将画布清除的是——Label1.clear(Label1.BackColor)！！
+
+至于g.Clear(Color.Black)或者g.Clear(Label1.BackColor)、Label1.Refresh(Color.Black)，这几种都可以将画布清除。
+
+'6结构类型与结构变量
+
+Structure  MyStru
+    Dim No as integer
+    Dim Gender As Char
+End Structure‍
+
+Dim  s(100) AS   MyStru
+
+'其中，MyStru是结构类型，s(100)是结构变量，Gender是结构中的一个成员
