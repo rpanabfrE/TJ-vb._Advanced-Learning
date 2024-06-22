@@ -74,3 +74,4 @@ End Structure‍
 Dim  s(100) AS   MyStru
 
 '其中，MyStru是结构类型，s(100)是结构变量，Gender是结构中的一个成员
+
